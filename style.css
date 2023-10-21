@@ -27,16 +27,13 @@ div{
 }
 
 div.container{
-  border-radius:15px 50px;  
-  display:flex;
-  justify-content:center;
+  border-radius: 15px / 50px;  
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 600px){
     .green, .red, .yellow{
         width: 100%;
-    }
-    div{
-        display:block;
     }
 }
