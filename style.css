@@ -11,7 +11,6 @@
     text-align: center;
 }
 
-
 .yellow{
     width: 300px;
     height: 300px;
@@ -20,18 +19,21 @@
 
 .fa-star{
     color: yellow;
-    margin-top:25%;
-    
+    margin-top:25%;  
 }
 
 div{
     float: left;
-    border: 1px solid black;
+    display:flex;
+    justify-content:center;
+}
+.container{
+  border:30px 25px 60px 12px;  
 }
 
 @media screen and (max-width: 600px){
     .green, .red, .yellow{
-        width: 100%;
+        width: 80%;
 
     }
 }
