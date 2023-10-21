@@ -24,17 +24,17 @@
 
 div{
     float: left;
-    display:flex;
-    justify-content:center;
 }
 
 div.container{
-  border-radius:30px 25px 60px 12px;  
+  border-radius:15px 50px;  
+  display:flex;
+  justify-content:center;
 }
 
 @media screen and (max-width: 600px){
     .green, .red, .yellow{
-        width: 80%;
+        width: 100%;
     }
     div{
         display:block;
